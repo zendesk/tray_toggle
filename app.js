@@ -2,11 +2,18 @@
 
   return {
     events: {
-      'app.created':'hideTheTray'
+      'app.created':'toggleTray'
     },
 
-    hideTheTray: function() {
-      _.delay( function() { services.appsTray().hide(); }, 2000 );
+    toggleTray: function() {
+      // TODO make this conditional on a setting
+      this.showTray();
+    },
+    showTray: function() {
+      _.delay( function() { services.appsTray().show(); }, 100 );
+    },
+    hideTray: function() {
+      _.delay( function() { services.appsTray().hide(); }, 100 );
     }
   };
 
