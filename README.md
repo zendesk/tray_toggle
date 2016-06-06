@@ -1,14 +1,12 @@
-# App name
+⚠️ Use of this software is subject to important terms and conditions as set forth in the License file ⚠️
 
-[brief description of the app]
+# Tray Toggle App
 
-### The following information is displayed:
+## Description:
 
-* info1
-* info2
-* info3
+## Contribute:
 
 Please submit bug reports to [Insert Link](). Pull requests are welcome.
 
-### Screenshot(s):
+## Screenshot(s):
 [put your screenshots down here.]
